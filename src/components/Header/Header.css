@@ -1,0 +1,32 @@
+/* navbar */
+.navbar{
+    background-color: var(--primary-color);
+    height: 80px;
+    color: #fff;
+   
+}
+
+.navbar .flex{
+    justify-content: space-between;
+    overflow: visible;
+}
+
+.navbar .logo{
+    font-weight: 600;
+}
+
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid #fff;
+}
