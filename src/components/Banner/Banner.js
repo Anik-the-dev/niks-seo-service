@@ -13,7 +13,7 @@ const Banner = () => {
                 </div>
 
                 <div class="showcase-form card">
-                    <h2>Request a FREE SEO Audit</h2>
+                    <h2>Request a <span className='emphasize-text'> FREE. </span> SEO Audit</h2>
 
                     <form>
                         <div class="form-control">
