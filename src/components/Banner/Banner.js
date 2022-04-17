@@ -8,7 +8,7 @@ const Banner = () => {
             <div class="container grid">
                 <div class="showcase-text">
                     <h1>Boost Google Ranking's with Me.</h1>
-                    <p>I am Anik Acharjee worked as a lead Technical SEO manager for Wedevs from 2018 to 2020. I helped a retail shop 'duds fashion' to grow their traffic by more than 550% in 2019-2020.</p>
+                    <p>I am Anik Acharjee a 3 years experienced SEO Consulted helped more than 75 companies to grow their search engine ranking in last 2 years.</p>
                     <Link class="btn btn-outline" to='/about'>About Me</Link>
                 </div>
 
