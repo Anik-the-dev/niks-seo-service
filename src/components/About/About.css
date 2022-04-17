@@ -12,3 +12,11 @@
 
 }
 
+.aboutme .grid{
+    grid-template-columns: 60% 40%;
+}
+
+.aboutme-description p{
+    font-weight: 600;
+    font-size: 1rem;
+}
