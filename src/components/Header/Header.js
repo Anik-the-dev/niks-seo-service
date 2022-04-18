@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        
+
         <div class="navbar">
             <div class="container flex">
                 <h1 class="logo">nikseo.</h1>
@@ -16,6 +16,8 @@ const Header = () => {
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/login'>Login</Link></li>
                     <li><Link to='/signup'>Signup</Link></li>
+                    <li><Link to='/checkout'>Checkout Now</Link></li>
+
 
                 </ul>
             </div>
