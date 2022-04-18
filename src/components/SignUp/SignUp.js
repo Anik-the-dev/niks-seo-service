@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import '../Banner/Banner.css';
 import auth from '../../firebase.init';
+import '../Login/Login.css'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth'
+import AutoSignIn from '../AutoSignIn/AutoSignIn';
+import { Link } from 'react-router-dom';
 const SignUp = () => {
     // declare the states......
     const [name, setName] = useState('')
@@ -26,9 +29,19 @@ const SignUp = () => {
     return (
         <div className='container'>
             <div className='login grid'>
-                <div className='p-2'>
-                    <h2>Login Here for Checkout Services.</h2>
+            <div className='login-text my-4'>
+                    <h2>Sign Up Here for Checkout.</h2>
+                    <br/>
+                    <p className='f-bold'> Via Google or Via Email</p>
+                    
+                    <AutoSignIn></AutoSignIn>
+                    
+                    <p className='f-bold'> You can't access the checkout page without Sign In.</p>
+                    <br/>
+                    <p>Already Signed In? Go to the  <Link className='emphasize-text' to='/login'>Log in Page.</Link></p>
+
                 </div>
+              
                 <div>
                     <div className="showcase-form card">
                         <h2>Sign Up Here for Checkout.</h2>
