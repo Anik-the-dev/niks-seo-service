@@ -2,8 +2,12 @@ import React from 'react';
 
 const CheckOUt = () => {
     return (
-        <div>
-            <h2>This is checkout</h2>
+        <div className='container'>
+            <div className='card  checkout my-5'>
+                <h1>Working in Progress</h1>
+                <p>We will be back soon........</p>
+            </div>
+
         </div>
     );
 };
