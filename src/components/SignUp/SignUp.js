@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import '../Banner/Banner.css';
 import auth from '../../firebase.init';
 import '../Login/Login.css'
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth'
+import { useCreateUserWithEmailAndPassword, useSendEmailVerification } from 'react-firebase-hooks/auth'
 import AutoSignIn from '../AutoSignIn/AutoSignIn';
 import { Link } from 'react-router-dom';
+
 const SignUp = () => {
     // declare the states......
     const [name, setName] = useState('')
@@ -20,10 +21,13 @@ const SignUp = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
 
+
+    const [sendEmailVerification] = useSendEmailVerification(auth);
+
     // click the sign up btn......
     const handleRegisterForm = (e) => {
         e.preventDefault()
-        createUserWithEmailAndPassword(email, pass).then(() => console.log(email))
+        createUserWithEmailAndPassword(email, pass).then(() => sendEmailVerification())
 
     }
     return (
