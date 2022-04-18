@@ -1,8 +1,12 @@
 import React from 'react';
 import '../Banner/Banner.css'
 import './Login.css'
+import auth from '../../firebase.init';
 
 const Login = () => {
+
+    
+
     return (
         <div className='container'>
             <div className='login grid'>
@@ -11,7 +15,7 @@ const Login = () => {
                 </div>
                 <div>
                     <div className="showcase-form card">
-                        <h2>Login Here for Checkout Services.</h2>
+                        <h2>Login Here for Checkout.</h2>
 
                         <form>
                             <div className="form-control">
