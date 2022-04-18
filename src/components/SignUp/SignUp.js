@@ -7,7 +7,7 @@ const SignUp = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
-    console.log(pass)
+
 
     // destructuring the hook......
     const [
