@@ -16,20 +16,20 @@ const Login = () => {
         user,
         loading,
         error,
-      ] = useSignInWithEmailAndPassword(auth);
+    ] = useSignInWithEmailAndPassword(auth);
 
     // click login btn
-    const handleLoginForm = (e)=>{
+    const handleLoginForm = (e) => {
         e.preventDefault()
         signInWithEmailAndPassword(email, pass)
 
     }
-    if(user){
-        console.log(user)
 
-    }
-    
-    console.log(error)
+    console.log(user?.user?.uid)
+
+
+
+
 
     return (
         <div className='container'>
