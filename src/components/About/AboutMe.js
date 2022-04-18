@@ -4,7 +4,7 @@ import './About.css'
 const AboutMe = () => {
     return (
         <div className='container  aboutme'>
-            <div className='my-5  grid about'>
+            <div className='my-5  grid about md-flex-reverse'>
                 <div className='aboutme-description'>
                     <h1>I am Anik Acharjee - Web Developer & SEO Consultant.</h1>
                     <p>My passion for technical SEO helps over 200+ clients to optimize their websites. <br/>

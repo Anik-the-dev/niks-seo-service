@@ -9,7 +9,7 @@ const Services = () => {
         <div className='container'>
             <div className='my-5'>
                 <h2 className='text-center my-4 lg'>My SEO Services</h2>
-                <div className='grid grid-three-col'>
+                <div className='grid grid-three-col md-flex'>
                     {
                         service.map(item => <SingleService
                             key={item.id} singleItem={item}></SingleService>)

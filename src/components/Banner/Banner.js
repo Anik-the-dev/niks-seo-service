@@ -4,8 +4,8 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <section className="showcase">
-            <div className="container grid">
+        <section className="showcase md-b">
+            <div className="container grid md-flex ">
                 <div className="showcase-text">
                     <h1>Boost Google Ranking's with Me.</h1>
                     <p>I am Anik Acharjee a 3 years experienced SEO Consulted helped more than 75 companies to grow their search engine ranking in last 2 years.</p>

@@ -35,7 +35,7 @@ const Login = () => {
 
     return (
         <div className='container'>
-            <div className='grid login'>
+            <div className='grid login md-flex'>
                 <div className='login-text my-4'>
                     <h2>Login Here for Checkout.</h2>
                     <br/>
