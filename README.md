@@ -1,12 +1,19 @@
-# Getting Started with Create React App
+# nikseo - SEO Consultant
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Link: https://nikseo22.web.app/
 
 In the project directory, you can run:
 
-### `npm start`
+## This Project is a combination of firebase and react router using React, Firebase, CSS
+* Use React router to route the dfferent section.
+* Use firebase  for authentication purpose.
+* Use Protected Route to save the unauthorized access.
+* Use raw css to design the layout.
+* Use some external hooks to simplify the project.
+* Use firebase hosting for deploy the project.
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
