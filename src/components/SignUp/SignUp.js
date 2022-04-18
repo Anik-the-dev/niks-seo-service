@@ -27,7 +27,10 @@ const SignUp = () => {
     // click the sign up btn......
     const handleRegisterForm = (e) => {
         e.preventDefault()
-        createUserWithEmailAndPassword(email, pass).then(() => sendEmailVerification())
+        createUserWithEmailAndPassword(email, pass).then(() => {
+            sendEmailVerification()
+            alert('Verification mail Sent');
+        })
 
     }
     return (
